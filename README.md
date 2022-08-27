@@ -137,16 +137,16 @@ Detector    |Model    | Params | FLOPs | AP (%) | AP_50 (%) | AP_75 (%) | AP_S 
                                   |SDA-Res2Net-86 (ours)                      |  63.62  |  318.78  | \textbf{37.9} | \textbf{59.8} | \textbf{40.7} | \textbf{18.3} | \textbf{41.0} | 55.2\\
 
 
-## Train for Classification
+## Training for Classification
 
 python train.py 
 
-## Train for Object Detection
+## Training for Object Detection
 
 CUDA_VISILE_DEVICES=0,1,2,3 ./tools/dist_train.sh configs/faster_rcnn/faster_rcnn_r50_1x_coco_sdanet.py 4 --work-dir work_dirs/faster_rcnn_r50_1x_coco_sdanet
 CUDA_VISILE_DEVICES=0,1,2,3 ./tools/dist_train.sh configs/mask_rcnn/mask_rcnn_r50_1x_coco_sdanet.py 4 --work-dir work_dirs/mask_rcnn_r50_1x_coco_sdanet
 
-## Train for Instance Segmentation
+## Training for Instance Segmentation
 
 CUDA_VISILE_DEVICES=0,1,2,3 ./tools/dist_train.sh configs/mask_rcnn/mask_rcnn_r50_1x_coco_sdanet.py 4 --work-dir work_dirs/mask_rcnn_r50_1x_coco_sdanet
 

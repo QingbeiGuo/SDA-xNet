@@ -1,4 +1,4 @@
-# SDA-$x$Net: Selective Depth Attention Networks for Adaptive Multi-scale Feature Representation
+# SDA-xNet: Selective Depth Attention Networks for Adaptive Multi-scale Feature Representation
 
 ## Introduction
 

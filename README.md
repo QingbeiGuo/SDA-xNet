@@ -30,23 +30,23 @@ We benchmark our code thoroughly on imagenet-1K for classification, using differ
 
 Method   | Backbone Model | Multi-scale | Params | FLOPs | Top-1 (%) | Top-5 (%)
 ---------|---------|---------|--------|-------|-----------|-----------
-ResNet-50~\cite{HeZRS16}               |  \multirow{7}{*}{ResNet}        | multi-scale |   25.56  |  4.12  |  75.20  |  92.52
-bL-ResNet~\cite{ChenFMSF19}            |                                 | multi-scale |   26.69  |  2.85  |  77.31  |  -
-ScaleNet~\cite{LiKCZ19}                |                                 | multi-scale |   31.48  |  3.82  |  77.98  |  93.95
-EPSANet~\cite{ZhangZLZM21}             |                                 | multi-scale |   22.59  |  3.60  |  77.49  |  93.54
-PyConv~\cite{DutaLZS20}                |                                 | multi-scale |   24.85  |  3.88  |  77.88  |  93.80
-Res2Net~\cite{GaoCZZYT19}              |                                 | multi-scale |   25.70  |  4.26  |  77.99  |  93.85
+ResNet-50                |  \multirow{7}{*}{ResNet}        | multi-scale |   25.56  |  4.12  |  75.20  |  92.52
+bL-ResNet                |                                 | multi-scale |   26.69  |  2.85  |  77.31  |  -
+ScaleNet                 |                                 | multi-scale |   31.48  |  3.82  |  77.98  |  93.95
+EPSANet                  |                                 | multi-scale |   22.59  |  3.60  |  77.49  |  93.54
+PyConv                   |                                 | multi-scale |   24.85  |  3.88  |  77.88  |  93.80
+Res2Net                  |                                 | multi-scale |   25.70  |  4.26  |  77.99  |  93.85
 SDA-ResNet-86 (ours)                   |                                 | multi-scale |   27.22  |  3.88  |  \textbf{78.76}  |  \textbf{94.37}
 ---------|---------|---------|--------|-------|-----------|-----------
-EPSANet-101~\cite{ZhangZLZM21}         |  \multirow{3}{*}{EPSANet}       | multi-scale |   38.90  |  6.82  |  78.43  |  94.11
+EPSANet-101              |  \multirow{3}{*}{EPSANet}       | multi-scale |   38.90  |  6.82  |  78.43  |  94.11
 EPSANet-86 (our impl.)                 |                                 | multi-scale |   36.67  |  5.84  |  77.71  |  93.83
 SDA-EPSANet-86 (ours)                  |                                 | multi-scale |   39.45  |  5.85  |  \textbf{78.80}  |  \textbf{94.34}
 ---------|---------|---------|--------|-------|-----------|-----------
-PyConv-101~\cite{DutaLZS20}            |  \multirow{3}{*}{PyConv}        | multi-scale |   44.63  |  8.42  |  79.22  |  94.43
+PyConv-101               |  \multirow{3}{*}{PyConv}        | multi-scale |   44.63  |  8.42  |  79.22  |  94.43
 PyConv-86 (our impl.)                  |                                 | multi-scale |   40.55  |  6.22  |  78.63  |  94.26
 SDA-PyConv-86 (ours)                   |                                 | multi-scale |   43.33  |  6.22  |  \textbf{79.27}  |  \textbf{94.65}
 ---------|---------|---------|--------|-------|-----------|-----------
-Res2Net-101~\cite{GaoCZZYT19}          |  \multirow{3}{*}{Res2Net}       | multi-scale |   45.21  |  8.10  |  79.19  |  94.43
+Res2Net-101              |  \multirow{3}{*}{Res2Net}       | multi-scale |   45.21  |  8.10  |  79.19  |  94.43
 Res2Net-86 (our impl.)                 |                                 | multi-scale |   42.47  |  6.94  |  78.63  |  94.21
 SDA-Res2Net-86 (ours)                  |                                 | multi-scale |   45.26  |  6.95  |  \textbf{79.36}  |  \textbf{94.70}
 
@@ -54,29 +54,29 @@ SDA-Res2Net-86 (ours)                  |                                 | multi
 
 Method   | Backbone Model | Attention Dimension | Params | FLOPs | Top-1 (%) | Top-5 (%)
 ---------|---------|---------|--------|-------|-----------|-----------
-ResNet-50~\cite{HeZRS16}               |  \multirow{13}{*}{ResNet}      | -                     |   25.56  |  4.12  |  75.20  |  92.52
-SENet~\cite{HuSS18}                    |                                | channel               |   28.09  |  4.09  |  76.71  |  93.38
-ECANet~\cite{WangWZLZH20}              |                                | channel               |   25.56  |  4.09  |  77.48  |  93.68
-GSoP~\cite{GaoXWL19}                   |                                | channel               |   28.05  |  6.18  |  77.68  |  93.98
-FcaNet~\cite{QinZWL20}                 |                                | channel               |   28.07  |  4.09  |  78.52  |  94.14
-A$^2$Net~\cite{ChenKLYF18}             |                                | spatial               |   33.00  |  6.50  |  77.00  |  93.50
-AANet~\cite{BelloZVSL19}               |                                | spatial               |   25.80  |  4.15  |  77.70  |  93.80
-GCNet~\cite{CaoXLWH19}                 |                                | spatial               |   28.11  |  4.13  |  77.70  |  93.66
-BAM~\cite{ParkWLS18}                   |                                | channel+spatial       |   25.92  |  4.17  |  75.98  |  92.82
-CBAM~\cite{WooPLS18}                   |                                | channel+spatial       |   30.62  |  4.10  |  77.34  |  93.69
-SANet~\cite{ZhangY21}                  |                                | channel+spatial       |   25.56  |  4.09  |  77.72  |  93.80
-EPSANet~\cite{ZhangZLZM21}             |                                | branch                |   22.59  |  3.60  |  77.49  |  93.54
+ResNet-50                |  \multirow{13}{*}{ResNet}      | -                     |   25.56  |  4.12  |  75.20  |  92.52
+SENet                    |                                | channel               |   28.09  |  4.09  |  76.71  |  93.38
+ECANet                   |                                | channel               |   25.56  |  4.09  |  77.48  |  93.68
+GSoP                     |                                | channel               |   28.05  |  6.18  |  77.68  |  93.98
+FcaNet                   |                                | channel               |   28.07  |  4.09  |  78.52  |  94.14
+A$^2$Net                 |                                | spatial               |   33.00  |  6.50  |  77.00  |  93.50
+AANet                    |                                | spatial               |   25.80  |  4.15  |  77.70  |  93.80
+GCNet                    |                                | spatial               |   28.11  |  4.13  |  77.70  |  93.66
+BAM                      |                                | channel+spatial       |   25.92  |  4.17  |  75.98  |  92.82
+CBAM                     |                                | channel+spatial       |   30.62  |  4.10  |  77.34  |  93.69
+SANet                    |                                | channel+spatial       |   25.56  |  4.09  |  77.72  |  93.80
+EPSANet                  |                                | branch                |   22.59  |  3.60  |  77.49  |  93.54
 SDA-ResNet-86 (ours)                   |                                | depth                 |   27.22  |  3.88  |  \textbf{78.76}  |  \textbf{94.37}
 ---------|---------|---------|--------|-------|-----------|-----------
-SENet-101~\cite{HuSS18}                |  \multirow{3}{*}{SENet}        | channel               |   49.33  |  7.81  |  77.62  |  93.93
+SENet-101                |  \multirow{3}{*}{SENet}        | channel               |   49.33  |  7.81  |  77.62  |  93.93
 SENet-86 (our impl.)                   |                                | channel               |   46.35  |  6.71  |  78.29  |  93.92
 SDA-SENet-86 (ours)                    |                                | depth+channel         |   49.13  |  6.72  |  \textbf{78.95}  |  \textbf{94.50}
 ---------|---------|---------|--------|-------|-----------|-----------
-CBAM-101~\cite{WooPLS18}               |  \multirow{3}{*}{CBAM}         | channel+spatial       |   54.04  |  7.81  |  78.49  |  94.31
+CBAM-101                 |  \multirow{3}{*}{CBAM}         | channel+spatial       |   54.04  |  7.81  |  78.49  |  94.31
 CBAM-86 (our impl.)                    |                                | channel+spatial       |   50.75  |  6.71  |  78.36  |  94.09
 SDA-CBAM-86 (ours)                     |                                | depth+channel+spatial |   53.53  |  6.72  |  \textbf{79.05}  |  \textbf{94.44}
 ---------|---------|---------|--------|-------|-----------|-----------
-EPSANet-101~\cite{ZhangZLZM21}         |  \multirow{3}{*}{EPSANet}      | branch                |   38.90  |  6.82  |  78.43  |  94.11
+EPSANet-101              |  \multirow{3}{*}{EPSANet}      | branch                |   38.90  |  6.82  |  78.43  |  94.11
 EPSANet-86 (our impl.)                 |                                | branch                |   36.67  |  5.84  |  77.71  |  93.83
 SDA-EPSANet-86 (ours)                  |                                | depth+branch          |   39.45  |  5.85  |  \textbf{78.80}  |  \textbf{94.34}
 

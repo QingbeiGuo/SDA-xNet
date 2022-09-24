@@ -155,3 +155,12 @@ CUDA_VISILE_DEVICES=0,1,2,3 ./tools/dist_train.sh configs/mask_rcnn/mask_rcnn_r5
 This project is contributed by [Qingbei Guo](https://github.com/QingbeiGuo).
 
 ## Citation
+
+@article{HanMD15,
+  title={SDA-$x$Net: Selective Depth Attention Networks for Adaptive Multi-scale Feature Representation},
+  author={Guo, Qingbei and Wu, Xiao-Jun and Feng, Zhiquan and Xu, Tianyang and Hu, Cong},
+  journal={arXiv preprint arXiv:2209.10327},
+  year={2022}
+}
+
+

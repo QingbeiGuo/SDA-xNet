@@ -157,10 +157,10 @@ This project is contributed by [Qingbei Guo](https://github.com/QingbeiGuo).
 ## Citation
 
 @article{HanMD15,
-  title={SDA-$x$Net: Selective Depth Attention Networks for Adaptive Multi-scale Feature Representation},
-  author={Guo, Qingbei and Wu, Xiao-Jun and Feng, Zhiquan and Xu, Tianyang and Hu, Cong},
-  journal={arXiv preprint arXiv:2209.10327},
-  year={2022}
+  title={SDA-$x$Net: Selective Depth Attention Networks for Adaptive Multi-scale Feature Representation}, 
+  author={Guo, Qingbei and Wu, Xiao-Jun and Feng, Zhiquan and Xu, Tianyang and Hu, Cong}, 
+  journal={arXiv preprint arXiv:2209.10327}, 
+  year={2022} 
 }
 
 

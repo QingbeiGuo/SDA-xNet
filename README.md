@@ -36,19 +36,19 @@ ScaleNet                 |                                 | multi-scale |   31.
 EPSANet                  |                                 | multi-scale |   22.59  |  3.60  |  77.49  |  93.54
 PyConv                   |                                 | multi-scale |   24.85  |  3.88  |  77.88  |  93.80
 Res2Net                  |                                 | multi-scale |   25.70  |  4.26  |  77.99  |  93.85
-SDA-ResNet-86 (ours)     |                                 | multi-scale |   27.22  |  3.88  |  \textbf{78.76}  |  \textbf{94.37}
+SDA-ResNet-86 (ours)(https://pan.baidu.com/s/1Ez9DqF06vYVqs_qHZLSHrA)     |                                 | multi-scale |   27.22  |  3.88  |  \textbf{78.76}  |  \textbf{94.37}
 ---------|---------|---------|--------|-------|-----------|-----------
 EPSANet-101              |  \multirow{3}{*}{EPSANet}       | multi-scale |   38.90  |  6.82  |  78.43  |  94.11
 EPSANet-86 (our impl.)   |                                 | multi-scale |   36.67  |  5.84  |  77.71  |  93.83
-SDA-EPSANet-86 (ours)    |                                 | multi-scale |   39.45  |  5.85  |  \textbf{78.80}  |  \textbf{94.34}
+SDA-EPSANet-86 (ours)(https://pan.baidu.com/s/1Ez9DqF06vYVqs_qHZLSHrA)    |                                 | multi-scale |   39.45  |  5.85  |  \textbf{78.80}  |  \textbf{94.34}
 ---------|---------|---------|--------|-------|-----------|-----------
 PyConv-101               |  \multirow{3}{*}{PyConv}        | multi-scale |   44.63  |  8.42  |  79.22  |  94.43
 PyConv-86 (our impl.)    |                                 | multi-scale |   40.55  |  6.22  |  78.63  |  94.26
-SDA-PyConv-86 (ours)     |                                 | multi-scale |   43.33  |  6.22  |  \textbf{79.27}  |  \textbf{94.65}
+SDA-PyConv-86 (ours)(https://pan.baidu.com/s/1Ez9DqF06vYVqs_qHZLSHrA)     |                                 | multi-scale |   43.33  |  6.22  |  \textbf{79.27}  |  \textbf{94.65}
 ---------|---------|---------|--------|-------|-----------|-----------
 Res2Net-101              |  \multirow{3}{*}{Res2Net}       | multi-scale |   45.21  |  8.10  |  79.19  |  94.43
 Res2Net-86 (our impl.)   |                                 | multi-scale |   42.47  |  6.94  |  78.63  |  94.21
-SDA-Res2Net-86 (ours)    |                                 | multi-scale |   45.26  |  6.95  |  \textbf{79.36}  |  \textbf{94.70}
+SDA-Res2Net-86 (ours)(https://pan.baidu.com/s/1Ez9DqF06vYVqs_qHZLSHrA)    |                                 | multi-scale |   45.26  |  6.95  |  \textbf{79.36}  |  \textbf{94.70}
 
 2) Classification Comparison among several SOTA attention methods on ImageNet-1K.
 
@@ -70,15 +70,17 @@ SDA-ResNet-86 (ours)     |                                | depth               
 ---------|---------|---------|--------|-------|-----------|-----------
 SENet-101                |  \multirow{3}{*}{SENet}        | channel               |   49.33  |  7.81  |  77.62  |  93.93
 SENet-86 (our impl.)     |                                | channel               |   46.35  |  6.71  |  78.29  |  93.92
-SDA-SENet-86 (ours)      |                                | depth+channel         |   49.13  |  6.72  |  \textbf{78.95}  |  \textbf{94.50}
+SDA-SENet-86 (ours)(https://pan.baidu.com/s/1Ez9DqF06vYVqs_qHZLSHrA)      |                                | depth+channel         |   49.13  |  6.72  |  \textbf{78.95}  |  \textbf{94.50}
 ---------|---------|---------|--------|-------|-----------|-----------
 CBAM-101                 |  \multirow{3}{*}{CBAM}         | channel+spatial       |   54.04  |  7.81  |  78.49  |  94.31
 CBAM-86 (our impl.)      |                                | channel+spatial       |   50.75  |  6.71  |  78.36  |  94.09
-SDA-CBAM-86 (ours)       |                                | depth+channel+spatial |   53.53  |  6.72  |  \textbf{79.05}  |  \textbf{94.44}
+SDA-CBAM-86 (ours)(https://pan.baidu.com/s/1Ez9DqF06vYVqs_qHZLSHrA)       |                                | depth+channel+spatial |   53.53  |  6.72  |  \textbf{79.05}  |  \textbf{94.44}
 ---------|---------|---------|--------|-------|-----------|-----------
 EPSANet-101              |  \multirow{3}{*}{EPSANet}      | branch                |   38.90  |  6.82  |  78.43  |  94.11
 EPSANet-86 (our impl.)   |                                | branch                |   36.67  |  5.84  |  77.71  |  93.83
-SDA-EPSANet-86 (ours)    |                                | depth+branch          |   39.45  |  5.85  |  \textbf{78.80}  |  \textbf{94.34}
+SDA-EPSANet-86 (ours)(https://pan.baidu.com/s/1Ez9DqF06vYVqs_qHZLSHrA)    |                                | depth+branch          |   39.45  |  5.85  |  \textbf{78.80}  |  \textbf{94.34}
+
+baidupan psw: 1234
 
 
 ## Object Detection

@@ -1,4 +1,4 @@
-# SDA-xNet: Selective Depth Attention Networks for Adaptive Multi-scale Feature Representation
+# Selective Depth Attention Networks for Adaptive Multi-scale Feature Representation
 
 ## Introduction
 
@@ -163,8 +163,8 @@ This project is contributed by [Qingbei Guo](https://github.com/QingbeiGuo).
 @article{GuoWFXH2022,
   title={SDA-$x$Net: Selective Depth Attention Networks for Adaptive Multi-scale Feature Representation},  
   author={Guo, Qingbei and Wu, Xiao-Jun and Feng, Zhiquan and Xu, Tianyang and Hu, Cong},  
-  journal={arXiv preprint arXiv:2209.10327},  
-  year={2022}  
+  journal={IEEE Transactions on Artificial Intelligence, Accepted},  
+  year={2024}  
 }
 
 

@@ -160,8 +160,8 @@ This project is contributed by [Qingbei Guo](https://github.com/QingbeiGuo).
 
 ## Citation
 
-@article{GuoWFXH2022,
-  title={SDA-$x$Net: Selective Depth Attention Networks for Adaptive Multi-scale Feature Representation},  
+@article{GuoWFXH2024,
+  title={Selective Depth Attention Networks for Adaptive Multi-scale Feature Representation},  
   author={Guo, Qingbei and Wu, Xiao-Jun and Feng, Zhiquan and Xu, Tianyang and Hu, Cong},  
   journal={IEEE Transactions on Artificial Intelligence, Accepted},  
   year={2024}  
